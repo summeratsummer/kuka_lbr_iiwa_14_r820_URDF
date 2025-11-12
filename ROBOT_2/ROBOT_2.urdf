@@ -154,20 +154,20 @@
     </link>
     <joint name="LInk2_Revolute-2" type="continuous">
         <origin xyz="-0.00260349 -9.719813770596556e-21 0.20448343000000002" rpy="-1.5707963267948966 1.734723475976807e-18 1.6044921603364675e-18" />
-        <parent link="LInk2" />
-        <child link="Link1" />
+        <parent link="Link1" />
+        <child link="LInk2" />
         <axis xyz="9.491987578511381e-33 -2.467597741246146e-34 1.0" />
     </joint>
     <joint name="Link3_Revolute-3" type="continuous">
         <origin xyz="0.002738909081644124 -0.21548264999999994 -0.0004722743382689153" rpy="-1.5707963267948966 0.010098989929946055 -3.141592653589793" />
-        <parent link="Link3" />
-        <child link="LInk2" />
+        <parent link="LInk2" />
+        <child link="Link3" />
         <axis xyz="-0.012730999999999998 4.024969910520321e-21 0.999919" />
     </joint>
     <joint name="Link4_Revolute-4" type="continuous">
         <origin xyz="0.0008674139986434704 0.0005043807127756933 0.7799999964991687" rpy="1.5709243532128492 0.012792380216940466 -3.1404360218723784" />
-        <parent link="Link4" />
-        <child link="Link3" />
+        <parent link="Link3" />
+        <child link="Link4" />
         <axis xyz="0.008941038738881751 0.00024200000000000005 0.9999602862655446" />
     </joint>
     <joint name="Link4_Revolute-5" type="continuous">
@@ -178,14 +178,14 @@
     </joint>
     <joint name="Link6_Revolute-6" type="continuous">
         <origin xyz="0.0019049399999999995 -0.06063144999999998 -0.08092897000000009" rpy="-1.5707963267948966 -0.0 -3.1314936636598474" />
-        <parent link="Link6" />
-        <child link="Link5" />
+        <parent link="Link5" />
+        <child link="Link6" />
         <axis xyz="-0.03834156803903178 0.000586 0.9992641613694092" />
     </joint>
     <joint name="End_Link_Revolute-7" type="continuous">
         <origin xyz="0.00043624577709759914 -2.0342464948294725e-09 1.260899758781544" rpy="3.32348574086483e-05 -0.012791938476248538 -0.038355185897248775" />
-        <parent link="End_Link" />
-        <child link="Link6" />
+        <parent link="Link6" />
+        <child link="End_Link" />
         <axis xyz="0.012792000000000001 3.299999999999994e-05 0.999918" />
     </joint>
     <joint name="Base_Link_Revolute-9" type="continuous">
@@ -194,4 +194,5 @@
         <child link="Link1" />
         <axis xyz="0.0 0.0 1.0" />
     </joint>
+
 </robot>

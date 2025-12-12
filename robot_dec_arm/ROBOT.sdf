@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.7">
+    <model name="ROBOT">
+        <link name="link6">
+            <pose>-0.0008724651717584031 -4.405545936219113e-06 1.4210854715202004e-16 2.5166225661418376e-18 2.2741024766632042e-51 -2.2537009539377046e-34</pose>
+            <inertial>
+                <mass>14.198107658606093</mass>
+                <pose>0.00043267078299913777 0.0003380899174379129 1.1805652034175942 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>0.0384241600924895</ixx>
+                    <iyy>0.03678344864475136</iyy>
+                    <izz>0.0279979201680453</izz>
+                    <ixy>1.6598596418881573e-05</ixy>
+                    <iyz>0.0019193301385218259</iyz>
+                    <ixz>-1.9360172259956683e-05</ixz>
+                </inertia>
+            </inertial>
+            <visual name="link6_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link6.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="link6_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link6.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="link5">
+            <pose>-0.0008724651715053611 -4.405545933607868e-06 1.4210854715202004e-16 2.5597444867625344e-18 -7.605585750854079e-20 -7.674434960979175e-37</pose>
+            <inertial>
+                <mass>13.295919295227803</mass>
+                <pose>0.0006847795284104145 -0.02138647299652716 1.0399693408358537 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>0.07912623704559962</ixx>
+                    <iyy>0.06831701460026984</iyy>
+                    <izz>0.03508505882929398</izz>
+                    <ixy>9.519611533416606e-05</ixy>
+                    <iyz>0.024259661172417568</iyz>
+                    <ixz>-0.0002025289124463459</ixz>
+                </inertia>
+            </inertial>
+            <visual name="link5_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link5.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="link5_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link5.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="link4">
+            <pose>-0.0008724651715053256 -4.405545933607868e-06 -1.509903313490213e-16 6.165443609455533e-20 1.103598857893591e-37 -1.093698205917613e-20</pose>
+            <inertial>
+                <mass>21.504505920264382</mass>
+                <pose>0.0011449786370336908 -0.034259226498709924 0.8474186748540238 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>0.13504849892863652</ixx>
+                    <iyy>0.12870054533413544</iyy>
+                    <izz>0.04818578342724183</izz>
+                    <ixy>8.850031676556085e-05</ixy>
+                    <iyz>-0.022350604335330208</iyz>
+                    <ixz>0.00032045541369237114</ixz>
+                </inertia>
+            </inertial>
+            <visual name="link4_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link4.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="link4_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link4.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="link1">
+            <pose>0.0 0.0 0.0 0.0 1.0376094823663703e-53 0.0</pose>
+            <inertial>
+                <mass>32.25288432777395</mass>
+                <pose>-6.191133452068936e-07 -0.03379586771595075 0.2799052121924843 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>0.2589133311707985</ixx>
+                    <iyy>0.26120906148444245</iyy>
+                    <izz>0.0967670990549662</izz>
+                    <ixy>-7.388653219918385e-07</ixy>
+                    <iyz>0.038667289824777296</iyz>
+                    <ixz>2.5030378038365395e-06</ixz>
+                </inertia>
+            </inertial>
+            <visual name="link1_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="link1_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="link3">
+            <pose>-0.0008724651715054144 -4.405545933607868e-06 0.0 0.0 -1.0190757017815721e-19 -1.0283008370208218e-36</pose>
+            <inertial>
+                <mass>24.92500194263697</mass>
+                <pose>0.0005739441203943771 0.02956506668659592 0.6909977604903482 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>0.19688732722126723</ixx>
+                    <iyy>0.18690533481409943</iyy>
+                    <izz>0.059728330090355525</izz>
+                    <ixy>0.00010077577990090535</ixy>
+                    <iyz>-0.03826131470809846</iyz>
+                    <ixz>0.0003863519752671527</ixz>
+                </inertia>
+            </inertial>
+            <visual name="link3_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link3.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="link3_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link3.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="link2">
+            <pose>0.0 1.5987211554602254e-16 0.0 -1.0863796118563342e-123 1.0376094823663703e-53 -1.0283008370208218e-36</pose>
+            <inertial>
+                <mass>31.020327502985417</mass>
+                <pose>0.00015174639668545946 0.041986995901131884 0.4188027156270834 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>0.2401721066054625</ixx>
+                    <iyy>0.23879834088397622</iyy>
+                    <izz>0.08651115128858776</izz>
+                    <ixy>-0.00017845232069967356</ixy>
+                    <iyz>0.03836110638479018</iyz>
+                    <ixz>0.00025923171732073966</ixz>
+                </inertia>
+            </inertial>
+            <visual name="link2_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link2.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="link2_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/link2.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="end_link">
+            <pose>-0.0008724651717583676 -4.405545936219113e-06 1.4210854715202004e-16 4.478499405292578e-17 -6.442307711273835e-33 3.3306690738754696e-16</pose>
+            <inertial>
+                <mass>2.4431344682700122</mass>
+                <pose>0.0005225976182658411 -1.5586593659661817e-05 1.2783519214521466 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>0.0017785387583084677</ixx>
+                    <iyy>0.001788654507748788</iyy>
+                    <izz>0.0026850439720901335</izz>
+                    <ixy>-8.517208330103685e-07</ixy>
+                    <iyz>5.077818422244611e-07</iyz>
+                    <ixz>-1.7555668142561598e-06</ixz>
+                </inertia>
+            </inertial>
+            <visual name="end_link_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/end_link.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="end_link_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/end_link.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="base_link">
+            <pose>0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+            <inertial>
+                <mass>42.989083662070826</mass>
+                <pose>-0.012821279222491367 4.910548542761127e-08 0.07150676297621976 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>0.19039947779953365</ixx>
+                    <iyy>0.2420448546747356</iyy>
+                    <izz>0.2628141595813376</izz>
+                    <ixy>-4.1464098732953276e-07</ixy>
+                    <iyz>-9.968400816723491e-08</iyz>
+                    <ixz>0.005310984509618671</ixz>
+                </inertia>
+            </inertial>
+            <visual name="base_link_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/base_link.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="base_link_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://ROBOT/meshes/base_link.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <joint name="link6_Revolute-1" type="revolute">
+            <pose>0.0004364651717583676 4.055459362754617e-07 1.2608999999999997 0.0 0.0 0.0</pose>
+            <parent>link6</parent>
+            <child>end_link</child>
+            <axis>
+                <xyz expressed_in="__model__">0.0 0.0 -1.0</xyz>
+            </axis>
+        </joint>
+        <joint name="link5_Revolute-2" type="revolute">
+            <pose>0.0010494651717584031 -0.06069659445406378 1.1799999999999997 0.0 0.0 0.0</pose>
+            <parent>link5</parent>
+            <child>link6</child>
+            <axis>
+                <xyz expressed_in="__model__">0.010099 -0.999949 -0.0</xyz>
+            </axis>
+        </joint>
+        <joint name="link4_Revolute-3" type="revolute">
+            <pose>0.0006714651715053612 2.405545933610337e-06 0.9644999999999999 0.0 0.0 0.0</pose>
+            <parent>link4</parent>
+            <child>link5</child>
+            <axis>
+                <xyz expressed_in="__model__">0.001091 1.1e-05 -0.999999</xyz>
+            </axis>
+        </joint>
+        <joint name="link3_Revolute-4" type="revolute">
+            <pose>0.0008674651715053258 0.0005044055459336079 0.7800000000000004 0.0 0.0 0.0</pose>
+            <parent>link3</parent>
+            <child>link4</child>
+            <axis>
+                <xyz expressed_in="__model__">-0.010099 0.999949 -0.0</xyz>
+            </axis>
+        </joint>
+        <joint name="link2_Revolute-5" type="revolute">
+            <pose>0.0008724651715054145 4.405545933607868e-06 0.5645 0.0 0.0 0.0</pose>
+            <parent>link2</parent>
+            <child>link3</child>
+            <axis>
+                <xyz expressed_in="__model__">-0.0 0.0 -1.0</xyz>
+            </axis>
+        </joint>
+        <joint name="link1_Revolute-6" type="revolute">
+            <pose>1.6066123609574558e-52 -1.5987211554602254e-16 0.36 0.0 0.0 0.0</pose>
+            <parent>link1</parent>
+            <child>link2</child>
+            <axis>
+                <xyz expressed_in="__model__">0.0 1.0 0.0</xyz>
+            </axis>
+        </joint>
+        <joint name="base_link_Revolute-7" type="revolute">
+            <pose>-1.634234934727033e-54 0.0 0.1575 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>link1</child>
+            <axis>
+                <xyz expressed_in="__model__">0.0 0.0 1.0</xyz>
+            </axis>
+        </joint>
+    </model>
+</sdf>
